@@ -1,32 +1,62 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #d3d3d3;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-
-#content {
-    position: relative;
-    float: left;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translate(-50%, -50%);
+/* Made by hand */
+.split {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
 }
 
-#container {
-    position: absolute;
-    left: 25%;
-    height: 100%;
+.left {
+    left: 0;
+    min-width: 180px;
+    width: 55%;
+    text-align: right;
+    align: right;
+    background-color: #ffffff;
+}
+
+.right {
+    min-width: 75px;
+    width: 45%;
+    right: 0;
+    text-align: left;
+    align: left;
     border-color: black;
     border-width: 3px;
     border-left-style: solid;
-    padding-left: 10px;
-    background-image: linear-gradient(90deg, #ffffff, #d3d3d3);
+    background-color: #eeeeee;
 }
-/*
-Congratulations! You found the easter egg.
-A good traveler has no fixed plan, and is 
-not intent on arriving.
-                                - Lao Tzu
-*/
+
+.content {
+    padding: 20px;
+}
+
+.icons {
+    padding-top: 15px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .left {
+        width: 75%;
+    }
+    .right {
+        width: 25%;
+    }
+}
+/* Congratulations! You found the easter egg. */
+
