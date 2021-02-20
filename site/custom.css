@@ -1,62 +1,61 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
 /* Made by hand */
 .split {
-    height: 100%;
-    position: fixed;
-    top: 0;
-    overflow-x: hidden;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
 }
 
 .left {
-    left: 0;
-    min-width: 180px;
-    width: 55%;
-    text-align: right;
-    align: right;
-    background-color: #ffffff;
+  left: 0;
+  min-width: 180px;
+  width: 55%;
+  text-align: right;
+  align: right;
+  background-color: #ffffff;
 }
 
 .right {
-    min-width: 75px;
-    width: 45%;
-    right: 0;
-    text-align: left;
-    align: left;
-    border-color: black;
-    border-width: 3px;
-    border-left-style: solid;
-    background-color: #eeeeee;
+  min-width: 75px;
+  width: 45%;
+  right: 0;
+  text-align: left;
+  align: left;
+  border-color: black;
+  border-width: 3px;
+  border-left-style: solid;
+  background-color: #eeeeee;
 }
 
 .content {
-    padding: 20px;
+  padding: 20px;
 }
 
 .icons {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .icons a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 600px) {
-    .left {
-        width: 75%;
-    }
-    .right {
-        width: 25%;
-    }
+  .left {
+    width: 75%;
+  }
+  .right {
+    width: 25%;
+  }
 }
 /* Congratulations! You found the easter egg. */
-
