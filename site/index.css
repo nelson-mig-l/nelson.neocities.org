@@ -1,8 +1,9 @@
+/* Made by hand */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0px;
+  margin: 0;
 }
-/* Made by hand */
+
 .split {
   height: 100%;
   position: fixed;
@@ -15,8 +16,6 @@ body {
   min-width: 180px;
   width: 55%;
   text-align: right;
-  align: right;
-  background-color: #ffffff;
 }
 
 .right {
@@ -24,11 +23,10 @@ body {
   width: 45%;
   right: 0;
   text-align: left;
-  align: left;
   border-color: black;
   border-width: 3px;
   border-left-style: solid;
-  background-color: #eeeeee;
+  background-color: rgba(127, 127, 127, 0.2);
 }
 
 .content {
@@ -51,11 +49,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
   .left {
     width: 75%;
   }
+  
   .right {
     width: 25%;
   }
 }
+
 /* Congratulations! You found the easter egg. */
